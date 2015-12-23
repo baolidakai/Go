@@ -2,16 +2,17 @@ package main
 
 import (
     "fmt"
-    "github.com/baolidakai/hello/stack"
+    "github.com/baolidakai/hello/util"
 )
 
 // 232. Implement Queue using Stacks
 type myque struct {
     stack1 stack.Stack
+    stack2 stack.Stack
 }
 
 func (q *myque) Size() int {
-    return q.stack1.Size()
+    return q.stack1.Size() + q.stack2.Size()
 }
 
 func (q *myque) Push(x int) {
@@ -19,13 +20,21 @@ func (q *myque) Push(x int) {
 }
 
 func (q *myque) Pop() int {
-    return q.stack1.Pop().(int)
+    if q.stack2.IsEmpty() {
+        for !q.stack1.IsEmpty() {
+            q.stack2.Push(q.stack1.Pop().(int))
+        }
+    }
+    return q.stack2.Pop().(int)
 }
 
 func (q *myque) Peek() int {
-    rtn := q.stack1.Pop().(int)
-    q.stack1.Push(rtn)
-    return rtn
+    if q.stack2.IsEmpty() {
+        for !q.stack1.IsEmpty() {
+            q.stack2.Push(q.stack1.Pop().(int))
+        }
+    }
+    return q.stack2.Peek().(int)
 }
 
 func (q *myque) Empty() bool {
@@ -33,13 +42,13 @@ func (q *myque) Empty() bool {
 }
 
 func main() {
-    fmt.Println("tmp")
     queue := new(myque)
     // Test the queue (stack)
-    fmt.Println(queue.Size())
     queue.Push(2)
     queue.Push(3)
     queue.Push(4)
+    queue.Pop()
+    queue.Push(5)
     for queue.Size() != 0 {
         fmt.Println(queue.Pop())
     }
