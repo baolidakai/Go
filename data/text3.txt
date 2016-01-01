@@ -1,0 +1,1 @@
+This is a just a test file. Another ranked retrieval test example.

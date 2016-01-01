@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>CS 229: Machine Learning</title>
+</head>
+<body bgcolor="white" lang="EN-US" link="blue" vlink="blue" style="">
+
+<!-- PAGE HEADER -->
+
+<div class="Section1">
+<table border="0" cellpadding="0" width="100%" style="width: 100%;">
+      <tbody>
+        <tr>
+       <td style="padding: 0.75pt;" width="80" align="center">
+
+      <p class="MsoNormal">&nbsp;<img width="64" height="64"
+ id="_x0000_i1025"
+ src="stanford.seal64.gif" alt="STANFORD">
+          </p>
+       </td>
+       <td style="padding: 0.75pt;">
+      <p>
+<span style="font-size: 18pt;">
+<b><big>&nbsp;CS229<br>
+   &nbsp;Machine Learning<br>
+   &nbsp;Autumn 2015</big></b>
+<br>
+</p>
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<div class="MsoNormal" align="center" style="text-align: center;">
+<hr size="2" width="100%" align="center">  </div>
+
+<ul type="disc">
+
+</ul>
+
+<!-- ANNOUNCEMENTS BANNER -->
+
+<table border="0" cellpadding="0" width="100%" bgcolor="#990000"
+ style="background: rgb(153,0,0) none repeat scroll 50% 0%; width: 100%;">
+      <tbody>
+        <tr>
+       <td style="padding: 2.25pt;">
+      <p class="MsoNormal"><b><span style="font-size: 13.5pt; color: white;">Announcements</span></b></p>
+       </td>
+      <td align="right">
+<p class="MsoNormal"><span style="font-size: 13.5pt; color: white;">
+<!-- (Last updated 10/16/07) !-->
+</span></p>
+      </td>
+      </tr>
+  </tbody>
+</table>
+<br>
+
+<!-- 2015 ANNOUNCEMENTS -->
+<li>
+<p>
+229ers,
+<br>
+If you would like to request a seat at the alternate midterm session, then please send an email to the staff list by October 14.  In your email, please include the reason for your request with any documentation required for validation, e.g. medical note or conference confirmation. 
+<br>
+October 14! We will not consider requests made after October 14. 
+</p>
+</li>
+<li>
+[This Note is for SCPD Students Only]
+<p>
+There is an update on homework submission procedures for SCPD students. Please follow these updated procedures to ensure your homework be properly collected, graded and returned.
+<br>
+If you are submitting your homework on-time without using any late-days, please submit your homework through the SCPD office. 
+(Fax: 650-736-1266. Email: <a href="mailto:scpd-distribution@lists.stanford.edu" target="_top">scpd-distribution@lists.stanford.edu</a>). 
+Please do not forget to attach the 
+<a href="http://cs229.stanford.edu/materials/coverSheet.pdf" target="_blank">Cover Sheet</a> (for CS 229 Only) 
+and 
+<a href="http://scpdweb.stanford.edu/sites/default/files/scpd_homeworkrouteform.pdf" target="_blank">SCPD Homework Route Form</a> (Required by SCPD). 
+Detailed instructions and university SCPD homework policies can be found 
+<a href="http://scpd.stanford.edu/programs/courses/graduate-courses/homework" target="_blank">here</a>. 
+<br>
+If you are submitting your homework late using any late-days, please submit your homework through the email submission system at 
+<a href="https://www.stanford.edu/class/cs229/cgi-bin/submit.php" target="_blank">https://www.stanford.edu/class/cs229/cgi-bin/submit.php</a>. 
+Please also attach the Cover Sheet and SCPD Homework Route Form to ensure a prompt return.
+</p>
+</li>
+<li> The first class will be held at 9:30 am on Monday 9/21, in the NVIDIA auditorium. We look forward to seeing you there!</li><br> 
+
+<br>
+
+<!-- COURSE INFORMATION BANNER -->
+
+<table border="0" cellpadding="0" width="100%" bgcolor="#990000"
+ style="background: rgb(153,0,0) none repeat scroll 0% 50%; width: 100%;">
+      <tbody>
+        <tr>
+       <td style="padding: 2.25pt;">
+      <p class="MsoNormal"><b><span
+ style="font-size: 13.5pt; color: white;">Course   Information</span></b></p>
+       </td>
+      </tr>
+
+  </tbody>
+</table>
+
+<!-- COURSE INFORMATION -->
+
+<h4>Instructor: </h4>
+
+<p class="MsoNormal" style="margin-left: 0.5in;"><big>Andrew Ng.
+
+<!--
+(<A HREF="mailto:&#97;&#110;&#103;&#64;&#99;&#115;&#46;&#115;&#116;&#97;&#110;&#102;&#111;&#114;&#100;&#46;&#101;&#100;&#117;">&#97;&#110;&#103;&#64;&#99;&#115;&#46;&#115;&#116;&#97;&#110;&#102;&#111;&#114;&#100;&#46;&#101;&#100;&#117;</A>)
+!-->
+
+</big></p>
+
+<h4>Lectures:</h4>
+
+<p style="margin-left: 0.5in;">
+<big><em>3-4 units. MW 9:30AM-10:50AM. </em>
+&nbsp
+<em><a href="http://campus-map.stanford.edu/?id=&lat=37.42794346326562&lng=-122.17423695919263&zoom=18&srch=Jen-Hsun Huang Engineering Center">NVIDIA Auditorium</a> (in the Huang Engineering Center)</em>
+</big></p>
+
+<p style="margin-left: 0.5in;">
+<big><em>Discussion sections: Fridays, 2:30 - 3:20 pm </em>
+&nbsp
+<em>Location: NVIDIA Auditorium (optional attendance) </em>
+</big></p>
+
+<h4>Email address:</h4>
+
+<p style="margin-left: 0.5in;">
+If you are taking the free online class, you should enroll at <a href="http://www.ml-class.org">www.ml-class.org</a>.</br><br>
+
+If you are enrolled in 229 at Stanford (i.e. you're a Stanford student or SCPD
+student) and have a question, for you to get a response quickly 
+we strongly encourage you to post it on our <a
+href="https://piazza.com/stanford/fall2015/cs229">Piazza forum</a>.  If you
+want to contact the teaching staff directly, you can also email us at <a
+href="mailto:cs229-qa@cs.stanford.edu">cs229-qa@cs.stanford.edu</a>.
+
+
+
+<p>
+
+<h3>Information and Handouts:</h3>
+
+<big>
+<ul>
+     <li><a href="info.html">Course Information</a></li>
+     <li><a href="schedule.html">Syllabus and Course Schedule</a></li>
+     <!---<li><a href="invitation.html">Poster Session Invitation</a></li>-->
+     <li><a href="materials.html">Handouts and Materials</a></li>
+     <li><a href="officehours.html">Office Hours, Telephone Numbers and Office locations</a></li>
+     <li>Video Lectures:
+     <a href="https://myvideosu.stanford.edu/oce/currentquarter.aspx">Full Time</a>,
+     <a href="http://scpd.stanford.edu/tilesPublic/currentStudent.jsp"> SCPD</a>
+     <li>
+     <a href="suggestions.html">Project Suggestions</a>, 
+     <a href="materials/projectGuidelines.pdf">Project Guidelines</a>
+     <li>Recent years' projects:
+     <a href="projects2015.html">2015</a>,
+     <a href="projects2014.html">2014</a>,
+     <a href="projects2013.html">2013</a>,
+     <a href="projects2012.html">2012</a>,
+     <a href="projects2011.html">2011</a>,
+     <a href="projects2010.html">2010</a>,
+     <a href="projects2009.html">2009</a>,
+     <a href="projects2008.html">2008</a>,
+     <a href="projects2007.html">2007</a>,
+     <a href="projects2006.html">2006</a>,
+     <a href="projects2005.html">2005</a>,
+     <a href="projects2004.html">2004</a>.
+     <li><a href="faq.html">Frequently Asked Questions</a><br>
+     </li>
+     <li> 
+     <a href="Survey.docx">Midterm Course Survey</a>
+     </li>
+</ul>
+</big>
+   <br>
+
+<div class="MsoNormal" align="center" style="text-align: center;">
+<hr size="2" width="100%" align="center">  </div>
+      </div>
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%" style="width: 100%;">
+     <tbody>
+       <tr>
+      <td style="padding: 0in;">
+  <p class=MsoNormal>Comments to <a href="mailto:cs229-qa@cs.stanford.edu">cs229-qa@cs.stanford.edu</a>.   </p>
+      </td>
+      <td style="padding: 0in;">
+      <p align="right" style="text-align: right;"><a
+ href="http://www.stanford.edu/class/cs229/">Home Page</a> </p>
+      </td>
+     </tr>
+
+  </tbody>
+</table>
+
+
+</body>
+</html>

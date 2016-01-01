@@ -1,9 +1,5 @@
 package stack
 
-//import (
-//  "fmt"
-//)
-
 type Stack struct {
   top *Node
   size int
