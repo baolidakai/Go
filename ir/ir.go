@@ -3,8 +3,8 @@ package ir
 import (
 	"fmt"
 	"io/ioutil"
-	"strings"
 	"regexp"
+	"github.com/reiver/go-porterstemmer"
 )
 
 //Example
@@ -45,7 +45,7 @@ func (ir *InformationRetrieval) Initialize(dir string) {
 		// Parse the file
 		result := pattern.FindAllString(string(content), -1)
 		for _, word := range result {
-			word = strings.ToLower(word)
+			word = porterstemmer.StemString(word)
 			if len(word) > 0 {
 				ir.PushBack(word, id)
 			}
@@ -62,6 +62,7 @@ func (ir *InformationRetrieval) Query(query string) {
 	var rtn []int
 	for _, word := range words {
 		if len(word) > 0 {
+			word = porterstemmer.StemString(word)
 			if locked {
 				rtn = ir.dict[word]
 				locked = false
