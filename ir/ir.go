@@ -1,5 +1,16 @@
 package ir
 
+// Todo
+// Static summary
+// Sentence retrieval: get all the sentences with the help of the program I wrote yesterday, then build inverted index
+// Dynamic summary
+// do arithmetics
+// Normalization: a-b -> ab
+// Add proximity
+// Spelling correction
+// Wildcard matching
+// 0 matches found
+
 import (
 	"fmt"
 	"io/ioutil"
